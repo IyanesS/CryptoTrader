@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de operaciones - CryptoTrader</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+</head>
+<body>
+<div class="sidebar"> <!--divisor para la barra lateral responsiva-->
+    <a href="index.html">Inicio</a>
+    <a href="convertidor.html">Convertidor</a>
+    <a href="operaciones.html" class="active">Historial de operaciones</a>
+    <a href="usuarios.html">Panel de suarios</a>
+    <a href="login.html">Login</a>
+</div>
+<div class="content">
+    <h1>
+      Historial de operaciones
+    </h1>
+</div>
+<br>
+<div class="content"> <!--divisor para resto del contenido-->
+  <label for="date">Seleccione la fecha a consultar</label>
+  <br>
+  <input type="date" name="date-search" id="fetch" value="2022-06-09" min="2022-06-01" max="2022-12-31">
+  <br>
+    <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-0lax">Token</th>
+            <th class="tg-0lax">Cantidad</th>
+            <th class="tg-0lax">Valor BTC</th>
+            <th class="tg-0lax">Fecha</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">$ADA</td>
+            <td class="tg-0lax">540</td>
+            <td class="tg-0lax">0.011</td>
+            <td class="tg-0lax">24/02/2022</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">$ADA</td>
+            <td class="tg-0lax">600</td>
+            <td class="tg-0lax">0.012</td>
+            <td class="tg-0lax">27/02/2022</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">$XMR</td>
+            <td class="tg-0lax">50</td>
+            <td class="tg-0lax">0.31</td>
+            <td class="tg-0lax">01/03/2022</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">$SAND</td>
+            <td class="tg-0lax">3546</td>
+            <td class="tg-0lax">0.15</td>
+            <td class="tg-0lax">05/03/2022</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">$BNB</td>
+            <td class="tg-0lax">12</td>
+            <td class="tg-0lax">0.1156</td>
+            <td class="tg-0lax">17/03/2022</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">$DOGE</td>
+            <td class="tg-0lax">350</td>
+            <td class="tg-0lax">0.0009224</td>
+            <td class="tg-0lax">24/05/2022</td>
+          </tr>
+        </tbody>
+        </table>    
+</div>
+</body>
+</html>

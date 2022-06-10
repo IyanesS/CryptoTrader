@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/usuarios.css">
+    <link rel="stylesheet" href="css/convertidor.css">
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
+    <title>Convertidor - CryptoTrader</title>
+</head>
+<body>
+    <div class="sidebar"> <!--divisor para la barra lateral responsiva-->
+    <a href="index.html">Inicio</a>
+    <a href="convertidor.html" class="active">Convertidor</a>
+    <a href="operaciones.html">Historial de operaciones</a>
+    <a href="usuarios.html">Panel de usuario</a>
+    <a href="login.html">Login</a>
+    </div>
+    
+    <div class="content"> <!--divisor para contenedor del resto de contenidos-->
+        <div>
+            <h1>Convertidor de monedas</h1>
+        </div>
+    <div style="float: left;" class="token1">
+        <form><h2>
+            Moneda a convertir
+        </h2>
+        <label for="name">Seleccione una moneda</label>
+        <select name="Token" id="moneda">
+            <option value="btc">Bitcoin - $BTC</option>
+            <option value="eth">Ethereum - $ETH</option>
+            <option value="bnb">Binance - $BNB</option>
+        </select>
+        <br>
+        <label for="name">Ingrese la cantidad</label>
+        <input type="text" placeholder="Ejemplo: 500">
+        </form>
+    </div>
+    <div style="float: right;" class="token2">
+        <div class="token22">
+    <form>
+        <h2>Moneda convertida</h2>
+        <input type="text" placeholder="">
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

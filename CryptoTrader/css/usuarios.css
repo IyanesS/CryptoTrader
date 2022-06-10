@@ -1,0 +1,24 @@
+.formulario {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+}
+
+.botones {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.drop {
+    width: 200px;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/usuarios.css">
+    <title>Panel de usuario - CryptoTrade</title>
+</head>
+<body>
+    
+    <div class="sidebar"> <!--divisor para la barra lateral responsiva-->
+    <a href="index.html">Inicio</a>
+    <a href="convertidor.html">Convertidor</a>
+    <a href="operaciones.html">Historial de operaciones</a>
+    <a href="usuarios.html" class="active">Panel de usuario</a>
+    <a href="login.html">Login</a>
+    </div>
+
+    <div class="content"> <!--divisor para resto del contenido-->
+    <div class="formulario">
+    <h1>Panel de usuarios</h1>
+    <label class="labels" for="nombre">Nombre</label><br>
+    <input type="text" name="nombre" placeholder="Ingrese su nombre aqui" required>
+    <br>
+    <label class="labels" for="usuario">Nombre de Usuario</label><br>
+    <input type="text" name="usuario" placeholder="Ingrese su nombre de usuario" required>
+    <br>
+    <label class="labels" for="clave">Clave de Acceso</label><br>
+    <input type="password" name="clave" placeholder="Ingrese su clave de acceso" required>
+    <br>
+    <label class="labels" for="correo"></label>Correo electronico<br>
+    <input type="text" name="correo" placeholder="Ingrese su correo electronico" required>
+    <br>
+    <label for="pregunta_seguridad" class="labels">Pregunta de seguridad</label>
+    <br>
+    <select name="pregunta_seguridad" class="drop">
+        <option value="pregunta1">Cual es tu color favorito?</option>
+        <option value="pregunta2">Como se llama tu amigo de infancia?</option>
+        <option value="pregunta3">Cual es tu lugar de nacimiento?</option>
+    </select>
+    <br>
+    <input type="text" name="respuesta_pregunta_seguridad" placeholder="Respuesta de pregunta aqui" required>
+    <center>
+        <input class="botones" type="button" name="modificar" type="submit" value="Modificar">
+        <input class="botones" type="button" name="cancelar" type="submit" value="Cancelar">
+    </center>
+    </div>
+    </div>
+    
+</body>
+</html>
