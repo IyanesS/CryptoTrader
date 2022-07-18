@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/favicon.svg" sizes="any" type="image/svg+xml">
+    <title>Bienvenido a CryptoTrader</title>
+</head>
+<body>
+<div class="sidebar"> <!--divisor para la barra lateral responsiva-->
+    <a href="index.html">Inicio</a>
+    <a href="convertidor.html">Convertidor</a>
+    <a href="ventas.html">Historial de operaciones</a>
+    <a href="usuarios.html">Panel de usuario</a>
+    <a href="compra.html" class="active">Compra de criptoactivos</a>
+    <a href="envio.html">Envia tus tokens</a>
+    <a href="soporte.html">Soporte tecnico</a>
+    <a href="index.html">Cerrar Sesion</a>
+</div>
+<div class="content"> <!--divisor para resto del contenido-->
+    <div>
+        <img src="img/logo.svg" alt="CryptoTrader" style="scale: 30%;">
+    </div>
+    <div>
+        <form action="">
+            <label for="">Ingrese el token que desea comprar</label>
+            <select name="" id="">
+                <option value="">Bitcoin - BTC</option>
+                <option value="">Ethereum - ETH</option>
+                <option value="">Binance - BNB</option>
+                <option value="">Tether USD - USDT</option>
+            </select><br>
+            <label for="">Ingrese la cantidad a comprar</label>
+            <input type="text"><br>
+            <label for="">Ingrese algun mensaje (opcional)</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label for="">Ingrese el codigo de confirmacion</label>
+            <input type="text"><br>
+            <button onclick="myFunction()">Comprar!</button>
+        </form>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        alert("Compra exitosa!");
+    }
+</script>
+</body>
+</html>

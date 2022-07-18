@@ -1,0 +1,14 @@
+token1 {
+    float: left;
+}
+
+token2 {
+    width: 50%;
+    margin: auto;
+}
+
+token22 {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}

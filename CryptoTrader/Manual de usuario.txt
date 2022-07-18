@@ -1,0 +1,14 @@
+_____________Manual de usuario_____________
+
+1- En la primera pestaña tendremos el inicio de sesion en la cual tendra que usar las credenciaes creadas para poder ingresar.
+2-Una vez dentro podra observar el inicio en donde se veran todas las cryptomonedas y sus costos actuales, por lo que podra hacer 
+sus analisis de mercado!
+3-Tenemos el convertidor en donde podra convertir las monedas hacia la que usted desee
+4- Luego esta el Historial de operaciones en donde encontraremos las operaciones de compra y venta realizadas por el usuario
+5-Tenemos luego el panel de usuario en donde podemos cambiar la informacion de usuario de nuestra cuenta
+6- En Compra de Cryptoactivos podras comprar la cryptomoneda que mejor te convenga
+7- Tambien puedes enviar tus cryptomonedas en Envia tus tokens
+8- Si tienes algun problema puedes quejarte con soporte tecnico en la pestaña con el mismo nombre
+
+
+Disfruta tu estancia en CryptoTrader!

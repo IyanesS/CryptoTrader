@@ -1,0 +1,36 @@
+_____________Estructura______________
+
+1_ Para el login tenemos una estructura sencilla debido a que no usamos una base de datos para la obtencion de las credenciales, 
+por lo tanto usamos de credenciales admin y root
+
+function check(form) {
+    if(form.usuario.value == "admin" && form.clave.value == "root")
+    {
+        window.open('dashboard.html')
+        window.close()
+    } else {
+        alert('Ingrese credenciales de acceso validas')
+    }
+}
+
+2_ Tenemos el convertidor de las monedas el cual usamos con una funcion fetch la cual solicita los datos desde la API para convertir de una modena a otra,
+en este caso ambos input utilizan la funciond en JS para solicitar y recibir los datos en el html
+
+
+3_En la secuencia app nos encontramos con otro fetch y este lo que hace es solicitar los datos desde la API sin discriminar que tipo de moneda
+se esta solicitando y en la funcion de abajo imprime la tabla de datos
+
+let endpoint = "https://api.binance.com/api/v3/ticker/price"
+fetch(endpoint)
+    .then(respuesta => respuesta.json())
+    .then(datos => mostrarData(datos))
+    .catch(e => console.log(e))
+
+const mostrarData = (data)=>{
+    console.log(data)
+    let body = ''
+    for (let i = 0; i < data.length; i++) {
+        body += `<tr><td>${data[i].symbol}</td><td>${data[i].price}</td></tr>`
+    }
+    document.getElementById('data').innerHTML = body
+}
